@@ -1,0 +1,162 @@
+
+body{
+    background-color: rgb(215, 203, 219);
+    margin: 0;
+}
+header{
+    background-color: rgb(84, 17, 146);
+    height: 20rem;
+}
+.iconoworkit{
+    background-image: url(../images/logo-dark.svg);
+    background-size: auto;
+    background-repeat: no-repeat;
+    width: 10rem;
+    height: 4rem;    
+}
+.parte1 a{
+    float: right;
+    
+    color: #fff;
+    font-weight: bold;
+    text-decoration: underline rgb(9, 134, 30) 3px;
+}
+.titulo h1{
+    padding-top: 2rem;
+    color: #fff;
+    text-align: center;
+    font-size: 40px;
+    margin-inline: 0.5rem;
+}
+.titulo span{
+    text-decoration: underline rgb(9, 134, 30) 3px;
+}
+.boton1{
+    background-color: rgb(9, 134, 30);
+    padding-block: 0.8rem;
+    margin-inline: 7rem;
+}
+.boton1 a{
+    color: rgb(12, 20, 126)fff;
+    margin-left: 2.8rem;
+    text-decoration: none;
+    font-weight: bold;
+}
+.fotomobile{
+    background-image: url(../images/image-hero.webp);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 10rem;
+    margin-top: 1rem;
+    margin-left: 2rem;
+}
+.informacion1{
+    text-align: center;
+}
+.allinfo{
+    margin-top: 10rem;
+}
+.numerouno{
+    border-style: groove;
+    margin-inline: 10rem;
+    border-radius: 50%;
+    border-width: 0.1rem;
+    border-color: rgb(59, 5, 110);
+}
+.info1 p{
+    margin-inline: 1rem;
+}
+.informacion2{
+    text-align: center;
+}
+.numerodos {
+    border-style: groove;
+    margin-inline: 10rem;
+    border-radius: 50%;
+    border-width: 0.1rem;
+    border-color: rgb(59, 5, 110);
+    
+}
+.info2 p{
+    margin-inline: 1rem;
+}
+.informacion3{
+    text-align: center;
+}
+.numerotres{
+    border-style: groove;
+    margin-inline: 10rem;
+    border-radius: 50%;
+    border-width: 0.1rem;
+    border-color: rgb(84, 17, 146);
+}
+.info3 p{
+    margin-inline: 1rem;
+}
+
+footer{
+    background-color: blueviolet;
+}
+@media(min-width:1440px){
+    header{
+        height: 25rem;
+        background-image: url(../images/bg-pattern-1.svg);
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    .iconoworkit{
+        margin-left: 5rem;
+    }
+    .parte1 a{
+        margin-right: 8rem;
+    }
+    .boton1{
+        margin-inline: 45rem;
+    }
+    .boton1 a{
+        margin-left: 4rem;
+    }
+    .titulo h1{
+        font-size: 50px;
+        margin-inline: 37rem;
+    }
+    .fotomobile{
+        background-image: url(../images/image-hero.webp);
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 10rem;
+        margin-top: 1rem;
+        margin-left: 40rem;
+    }
+    .allinfo{
+        display: grid;
+        grid-template-areas: 
+        'uno dos tres';
+    }
+    .numerouno{
+        padding-inline: 1.5rem;
+    }
+    .informacion1{
+        display: grid;
+        margin-top: 10rem;
+        margin-inline: 5rem;
+    }
+    .numerodos{
+        padding-inline: 1.5rem;
+    }
+    .informacion2{
+        display: grid;
+        margin-top: 10rem;
+        margin-inline: 5rem;
+    }
+    .numerotres{
+        padding-inline: 1.5rem;
+    }
+    .informacion3{
+        margin-top: 10rem;
+        margin-inline: 5rem;
+
+    }
+}
